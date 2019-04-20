@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RqL-lh-XHa" customClass="PassbookWalletTableViewCell" customModule="TranxitUser" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4I-VC-jmp">
+                    <rect key="frame" x="8" y="5" width="313" height="90"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="TLD-jf-hKV">
+                            <rect key="frame" x="8" y="0.0" width="297" height="90"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="tbc-az-fXc">
+                                    <rect key="frame" x="0.0" y="0.0" width="297" height="43"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxv-0m-Li6">
+                                            <rect key="frame" x="0.0" y="0.0" width="146.5" height="43"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdc-df-ayS" customClass="Label" customModule="TranxitUser" customModuleProvider="target">
+                                            <rect key="frame" x="150.5" y="0.0" width="146.5" height="43"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="textColorId">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EL5-GA-YfA" customClass="Label" customModule="TranxitUser" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="47" width="297" height="43"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="TLD-jf-hKV" firstAttribute="centerX" secondItem="U4I-VC-jmp" secondAttribute="centerX" id="EM7-74-LJE"/>
+                        <constraint firstItem="TLD-jf-hKV" firstAttribute="height" secondItem="U4I-VC-jmp" secondAttribute="height" id="RUU-So-Yex"/>
+                        <constraint firstItem="TLD-jf-hKV" firstAttribute="width" secondItem="U4I-VC-jmp" secondAttribute="width" multiplier="0.95" id="vbc-I1-NeU"/>
+                        <constraint firstItem="TLD-jf-hKV" firstAttribute="centerY" secondItem="U4I-VC-jmp" secondAttribute="centerY" id="xKB-6c-lNl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="size" keyPath="offsetShadow">
+                            <size key="value" width="0.0" height="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="opacityShadow">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="colorShadow">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="radiusShadow">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="U4I-VC-jmp" firstAttribute="centerX" secondItem="zc8-1I-Cjk" secondAttribute="centerX" id="H4b-Ze-Sb4"/>
+                <constraint firstItem="U4I-VC-jmp" firstAttribute="width" secondItem="RqL-lh-XHa" secondAttribute="width" multiplier="0.95" id="Tu9-E2-tiG"/>
+                <constraint firstItem="U4I-VC-jmp" firstAttribute="centerY" secondItem="zc8-1I-Cjk" secondAttribute="centerY" id="X7N-ub-pbD"/>
+                <constraint firstItem="U4I-VC-jmp" firstAttribute="height" secondItem="RqL-lh-XHa" secondAttribute="height" multiplier="0.9" id="XlS-84-4hh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="zc8-1I-Cjk"/>
+            <connections>
+                <outlet property="labelAmount" destination="Vdc-df-ayS" id="FdF-Xx-8F7"/>
+                <outlet property="labelBalance" destination="EL5-GA-YfA" id="1B8-tY-260"/>
+                <outlet property="labelTransactionId" destination="Hxv-0m-Li6" id="DtS-tx-qcE"/>
+            </connections>
+            <point key="canvasLocation" x="644" y="136.73163418290855"/>
+        </view>
+    </objects>
+</document>
